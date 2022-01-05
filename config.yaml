@@ -3,7 +3,7 @@ languageCode: pt-br
 defaultContentLanguage: pt
 title: Periódicos em Nuvens
 theme: cayman-hugo-theme
-
+min_version: 0.81.0
 # Disqus comments
 disqusShortname: yourdiscussshortname
 
@@ -27,6 +27,7 @@ params:
   logo:
     lepidus: /img/logoLepidus.png
     logo2: /img/logo2.png
+    
   # Date format for post list and single pages
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: 01-02-2006

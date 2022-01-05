@@ -451,31 +451,6 @@ a {
   color: #ffff;
 }
 
-#footer{
-  background: #222;
-  bottom: 0;
-  padding: 1rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  .container{
-    max-width: 58rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    span, a{
-      color: #fff;
-    }
-    a{
-      text-decoration: underline;
-    }
-    img{
-      margin: 0 15px;
-    }
-  }
-}
-
 label[for="bt_menu"]{
   
   padding: 5px;
@@ -533,3 +508,67 @@ label[for="bt_menu"]{
 figure{
   margin: 0;
 }
+
+#footer{
+  background: #222;
+  
+  padding: 1rem 0;
+
+  .container{
+    max-width: 58rem;
+    margin: 0 auto;
+    text-align: center;
+
+    span, a{
+      color: #fff;
+    }
+    
+    .row{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .footerCol{
+        width: 20%;
+        padding: 0 0.9375rem;
+
+        ul{
+          list-style: none;
+          li{
+            &:not(:last-child){
+              margin-bottom: 0.625rem;
+            }
+            a{
+              font-size: 1rem;
+              text-transform: capitalize;
+              font-weight: 300;
+              color: #f1f1f1;
+              display: block;
+              transition: all 0.3s ease;
+
+              &:hover {
+                padding-left: 0.5rem;
+              }
+            }
+          }
+        }
+
+        a img{
+         width: 161px;
+         height: 40px;
+        }
+        
+        @media (max-width: 48rem) {
+          width: 50%;
+          margin-bottom: 1.875rem;
+        }
+
+        @media (max-width: 35.875rem) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+
