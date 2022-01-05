@@ -3,7 +3,7 @@ languageCode: pt-br
 defaultContentLanguage: pt
 title: Periódicos em Nuvens
 theme: cayman-hugo-theme
-min_version: 0.81.0
+
 # Disqus comments
 disqusShortname: yourdiscussshortname
 

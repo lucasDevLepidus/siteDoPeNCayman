@@ -511,8 +511,6 @@ figure{
 
 #footer{
   background: #222;
-  
-  padding: 1rem 0;
 
   .container{
     max-width: 58rem;
@@ -567,6 +565,22 @@ figure{
           width: 100%;
         }
       }
+    }
+  }
+
+  .copyright{
+    display: flex;
+    gap: 1rem;
+
+    margin-left: 3.4375rem;
+
+    span, a{
+      color: #999;
+      font-size: 0.875rem
+    }
+
+    img{
+      width: 60%;
     }
   }
 }

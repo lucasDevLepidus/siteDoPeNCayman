@@ -342,8 +342,7 @@ figure {
   margin: 0; }
 
 #footer {
-  background: #222;
-  padding: 1rem 0; }
+  background: #222; }
   #footer .container {
     max-width: 58rem;
     margin: 0 auto;
@@ -380,3 +379,12 @@ figure {
         @media (max-width: 35.875rem) {
           #footer .container .row .footerCol {
             width: 100%; } }
+  #footer .copyright {
+    display: flex;
+    gap: 1rem;
+    margin-left: 3.4375rem; }
+    #footer .copyright span, #footer .copyright a {
+      color: #999;
+      font-size: 0.875rem; }
+    #footer .copyright img {
+      width: 60%; }
