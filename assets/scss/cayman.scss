@@ -511,6 +511,7 @@ figure{
 
 #footer{
   background: #222;
+  padding: 1rem 0;
 
   .container{
     max-width: 58rem;
@@ -572,7 +573,12 @@ figure{
     display: flex;
     gap: 1rem;
 
+    margin: 10px 0 0 3.4375rem;
     margin-left: 3.4375rem;
+
+    @media (max-width: 48rem) {
+      text-align: center;
+    }
 
     span, a{
       color: #999;

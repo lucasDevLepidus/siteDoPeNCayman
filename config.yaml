@@ -26,7 +26,7 @@ params:
 
   logo:
     lepidus: /img/logoLepidus.png
-    logo2: /img/logo2.png
+    logo2: /img/logoPen.png
     
   # Date format for post list and single pages
   # For more date formats see https://gohugo.io/functions/format/
